@@ -1,0 +1,40 @@
+@media (max-width: 500px){
+    body {
+        width: 100vw;
+    }
+    .home h1 {
+        font-size: 40px;
+        margin-left: 60px;
+    }
+    .segundotitulo {
+        margin: 150px 0;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .segundotitulo h2 {
+        font-size: 50px;
+    }
+    .segundotitulo p {
+        font-size: 1.2em;
+    }
+    nav {
+        display: none;
+    }
+    #sobremim {
+        padding: 10px;
+    }
+    #image {
+        display: none;
+    }
+    footer {
+        flex-direction: column;
+    }
+    footer h1 {
+        display: none;
+    }
+    footer p {
+        margin: auto;
+    }
+}
